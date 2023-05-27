@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#size {
+    height: 70px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+#header img {
+    height: 50px;
+}
+
+#searchbar {
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+#input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+    background: none;
+}
+
+#btn {
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 5px 7px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color: red;
+}
+
+#dk a {
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+#dk:hover {
+    transform: scale(1.1);
+}
+
+.cart {
+    display: inline-block;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    font-size: 25px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.cart:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+#main-menu {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+#main-menu li {
+    color: #fff;
+    display: inline-table;
+    font-size: 20px;
+    width: 18%;
+    height: 60px;
+    line-height: 60px;
+}
+
+#main-menu li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+#main-menu li a:hover {
+    background-color: rgb(250, 60, 26);
+}
+
+
+#wrapper {
+    background-color: rgb(237, 226, 237);
+    padding: 15px 15px;
+}
+
+#content1 {
+    margin: 15px auto;
+    width: 80%;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 8px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid rgb(235, 115, 115);
+}
+
+#ship{
+    color: rgb(51, 190, 190);
+}
+
+#content2 {
+    display: flex;
+    margin: 15px auto;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#sp{
+    width: 38%;
+    margin-top: 14px;
+}
+#clai{
+    display: flex;
+    width: 50%;
+    float: left;
+    justify-content: space-around;
+}
+
+#content3 {
+    margin: 0px auto;
+    width: 80%;
+    height: 250px;
+    padding-left: 10px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(205, 200, 200);
+}
+
+#checkgh{
+    text-align: center;
+}
+
+#anhgh{
+    margin-top: 10px;
+    width: 100px;
+}
+
+#tuade{
+    width: 32%;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+#dongia{
+    text-align: center;
+    width: 17%;
+}
+
+#cotsl {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    
+}
+#cotsl button{
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+}
+#cotsl button:active{
+    background-color: red;
+}
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid rgb(205, 200, 200);
+
+}
+tr:last-child{
+    border-bottom: none;
+}
+
+#xoa{
+    color: red;
+    width: 8%;
+    text-align: center;
+}
+
+#content4 {
+    margin: 0px auto;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: white;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(205, 200, 200);
+}
+
+#sale{
+    color: red;
+}
+
+#content5 {
+    margin: 0px auto;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: white;
+    font-size: 15px;
+}
+
+#content6 {
+    margin: 15px auto;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 18px;
+    background-color: white;
+    font-size: 15px;
+}
+
+#ttien{
+    font-weight: bold;
+    color: red;
+}
+
+#tongtien{
+    font-weight: bold;
+    color: red;
+    padding-left: 74%;
+}
+
+#thanhtoan a {
+    margin-left: 30px;
+    padding: 10px 10px;
+    border-radius: 13px;
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+#thanhtoan:hover {
+    transform: scale(1.1);
+}
+
+#footer {
+    font-size: 13px;
+    line-height: 1.2;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}

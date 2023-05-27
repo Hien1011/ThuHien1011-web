@@ -1,0 +1,466 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#size {
+    height: 70px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+#header img {
+    height: 50px;
+}
+
+#searchbar {
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+#input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+    background: none;
+}
+
+#btn {
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 5px 7px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color: red;
+}
+
+#dk a {
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+#dk:hover {
+  transform: scale(1.1);
+}
+
+.cart {
+    display: inline-block;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    font-size: 25px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.cart:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+#main-menu {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+#main-menu li {
+    color: #fff;
+    display: inline-table;
+    font-size: 20px;
+    width: 18%;
+    height: 60px;
+    line-height: 60px;
+}
+
+#main-menu li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+#main-menu li a:hover {
+    background-color: rgb(250, 60, 26);
+}
+
+#quangcao {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#wrapper {
+    background-color: rgb(237, 226, 237);
+    padding: 5px 10px;
+}
+
+#link {
+    font-size: 15px;
+    padding-left: 155px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#sanpham {
+    width: 40%;
+    display: flex;
+}
+
+#info {
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.ten {
+    font-size: 25px;
+}
+
+.star {
+    color: rgb(230, 230, 5);
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.nxb {
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.sale {
+    padding-left: 15px;
+}
+
+.gia {
+    padding-left: 15px;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    margin: 0;
+}
+
+#soluong {
+    padding: 20px 15px;
+}
+
+#mua {
+    border: 1px solid black;
+}
+
+#cotsl button {
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+
+}
+#cotsl button:active {
+    background-color: red;
+}
+
+#tieude {
+    font-size: 20px;
+}
+
+#sl {
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    font-size: 15px;
+}
+
+#conlai {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#cotsl {
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.buy {
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    width: 240px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    margin: 40px 10px;
+    border: 1px solid red;
+    transition: all 0.25s ease-in-out;
+}
+
+#add {
+    background-color: #fff;
+    color: red;
+
+}
+
+#pay {
+    background-color: red;
+    color: #fff;
+}
+
+.buy:hover {
+    transform: scale(1.1);
+}
+
+.buy:active {
+    background-color: rgb(255, 55, 148);
+}
+
+#phu {
+    width: 150px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#chinh {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 410px;
+    padding: 10px 10px;
+
+}
+
+#mainIMG {
+    width: 300px;
+}
+
+#sanpham img {
+    height: 380px;
+    width: 350px;
+    margin-top: 25px;
+    transition: all 0.15s ease-in-out;
+
+}
+
+#phu img {
+    height: 80px;
+    width: 70px;
+    border: 2px solid #fff;
+}
+
+#phu img:hover {
+    border: 2px solid red;
+}
+
+#content #main {
+    width: 100%;
+}
+
+.hinh img {
+    height: 200px;
+    padding-top: 20px;
+}
+
+.hinh {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.buy-now {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    opacity: 80%;
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    transition: all 0.35s ease-in-out;
+}
+
+.sanpham1:hover {
+    transform: scale(1.1);
+}
+
+.sanpham1:hover .buy-now {
+    bottom: 0;
+}
+
+
+.info {
+    padding-left: 30px;
+}
+
+.star {
+    color: rgb(230, 230, 5);
+}
+
+.gia {
+    color: red;
+    font-weight: bold;
+}
+
+#main {
+    margin: 5px auto;
+    width: 80%;
+    display: flex;
+    padding-left: 40px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.tuongtu{
+    width: 95%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.sanpham1 {
+    float: left;
+    width: 17.9%;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.35s;
+}
+
+.hinh img {
+    height: 150px;
+    padding-top: 20px;
+}
+
+.hinh {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.buy-now {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    opacity: 80%;
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    transition: all 0.35s ease-in-out;
+}
+
+.sanpham:hover {
+    transform: scale(1.1);
+}
+
+.sanpham:hover .buy-now {
+    bottom: 0;
+}
+
+
+.info {
+    padding-left: 30px;
+}
+
+.star1 {
+    font-size: 15px;
+    color: rgb(230, 230, 5);
+}
+
+.gia1 {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+#noidung_sp {
+    width: 80%;
+    margin: 35px auto;
+    margin-bottom: 0px;
+    padding: 20px 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#noidung_sp table {
+    line-height: 1.7;
+    width: 70%;
+    table-layout: fixed;
+    font-size: 18px;
+    color: #888686;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+#tomtat {
+    color: #525151;
+    font-size: 15px;
+}
+
+#footer {
+    font-size: 13px;
+    line-height: 1.2;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}

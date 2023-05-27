@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="img/logo1.png" alt="logo">
+            <img src="img/logo2.png" alt="logo2">
+            <form id="searchbar">
+                <input id="input" type="text" placeholder="Bạn tìm gì ?">
+                <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <form id="dk">
+                <a href="dangnhap/index.html">Đăng nhập/Đăng ký</a>
+            </form>
+            <div id="size">
+                <a class="cart" href="giohang/index.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="cart" href="dangnhap/index.html"><i class="fa-solid fa-user"></i></a>
+                <a class="cart" href="giohang/index.html"><i class="fa-solid fa-bell"></i></a>
+            </div>
+
+        </div>
+        <div id="menu">
+            <ul id="main-menu">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Trang Chủ</a></li>
+                <li><a href="gioithieu/index.html"><i class="fa-solid fa-person"></i> Giới Thiệu</a></li>
+                <li><a href="ds_sanpham/index.html"><i class="fa-solid fa-star"></i> Sản Phẩm</a></li>
+                <li><a href="gioithieu/index.html"><i class="fa-solid fa-radio"></i> Tin Tức</a></li>
+                <li><a href="gioithieu/index.html"><i class="fa-solid fa-location-dot"></i> Liên Hệ</a></li>
+            </ul>
+        </div>
+        <div id="quangcao">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/qc/h1.PNG" class="d-block w-100" alt="h1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/qc/h2.PNG" class="d-block w-100" alt="h2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/qc/h3.PNG" class="d-block w-100" alt="h3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+        <div id="wrapper">
+            <img id="qcsachmoi" src="img/qc/sachhot.PNG">
+            <div id="sachmoi">
+                <ul class="tuongtu">
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/sachhot/1.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Bí Kíp Làm Bài Thi Trắc Nghiệm THPT Quốc Gia</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>100.000 đ</del>
+                            <p class="gia1">91.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/sachhot/2.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Bộ Đề Tuyển Chọn - Khoa Học Xã Hội</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>109.000 đ</del>
+                            <p class="gia1">98.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/sachhot/3.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Bộ Đề Học Sinh Giỏi Tiếng Anh Lớp 12</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>167.000 đ</del>
+                            <p class="gia1">138.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/sachhot/4.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Luyện Thi Tốt Nghiệp THPT Môn Ngữ Văn</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>129.000 đ</del>
+                            <p class="gia1">100.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/sachhot/5.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Luyện Thi Tốt Nghiệp THPT Môn Toán</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>199.000 đ</del>
+                            <p class="gia1">179.000 đ</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img id="qcsachmoi" src="img/qc/ngoaingu.PNG">
+            <div id="sachmoi">
+                <ul class="tuongtu">
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/ngoaingu/1.gif" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>360 Động Từ Bất Quy Tắc Và Cấu Trúc Câu</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>100.000 đ</del>
+                            <p class="gia1">91.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/ngoaingu/2.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>HACKERS IELTS: READING</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>109.000 đ</del>
+                            <p class="gia1">98.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/ngoaingu/3.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>30 Chủ Đề Từ Vựng Tiếng Anh - Tập 1</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>167.000 đ</del>
+                            <p class="gia1">138.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/ngoaingu/4.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Cẩm Nang Cấu Trúc Tiếng Anh</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>129.000 đ</del>
+                            <p class="gia1">100.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/ngoaingu/5.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Nghiền Từ Vựng Tiếng Anh</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>199.000 đ</del>
+                            <p class="gia1">179.000 đ</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img id="qcsachmoi" src="img/qc/khoinghiep.PNG">
+            <div id="sachmoi">
+                <ul class="tuongtu">
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/khoinghiep/1.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Marketing Bệnh Viện Thực Hành - Tập 1</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>100.000 đ</del>
+                            <p class="gia1">91.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/khoinghiep/2.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>TikTok Khuynh Đảo Thế Giới Như Thế Nào</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>109.000 đ</del>
+                            <p class="gia1">98.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/khoinghiep/3.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Những Câu Hỏi Tại Sao?</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>167.000 đ</del>
+                            <p class="gia1">138.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/khoinghiep/4.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Tinh Hoa Quản Lý Nguồn Nhân Lực</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>129.000 đ</del>
+                            <p class="gia1">100.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/khoinghiep/5.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Khỏi Nghiệp Phiêu Lưu Ký</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>199.000 đ</del>
+                            <p class="gia1">179.000 đ</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img id="qcsachmoi" src="img/qc/eatclean.PNG">
+            <div id="sachmoi">
+                <ul class="tuongtu">
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/eatclean/1.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Sức Khoẻ Trong Tay Bạn - Tập 2</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>100.000 đ</del>
+                            <p class="gia1">91.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/eatclean/2.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Ăn Chay Tốt Cho Sức Khoẻ</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>109.000 đ</del>
+                            <p class="gia1">98.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/eatclean/3.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Những Phương Thức Phục Hồi Sức Khoẻ</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>167.000 đ</del>
+                            <p class="gia1">138.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/eatclean/4.gif" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>88 Bí Quyết Sống Khoẻ Đến Năm 99 Tuổi</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>129.000 đ</del>
+                            <p class="gia1">100.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/eatclean/5.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Cẩm Nang Sức Khoẻ Gia Đình</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>199.000 đ</del>
+                            <p class="gia1">179.000 đ</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img id="qcsachmoi" src="img/qc/kynang.PNG">
+            <div id="sachmoi">
+                <ul class="tuongtu">
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/kynang/1.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>7 Cảm Xúc Lớn Để Tâm An Giữa Bộn Bề Bất Ổn</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>100.000 đ</del>
+                            <p class="gia1">91.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/kynang/2.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Vẻ Đẹp Của Sự Cô Đơn (Bìa Cứng)</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>109.000 đ</del>
+                            <p class="gia1">98.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/kynang/3.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Khi Kẻ Tàn Ác Thường Sống Thảnh Thơi</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>167.000 đ</del>
+                            <p class="gia1">138.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/kynang/4.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Nghệ Thuật Sống Vững Vàng</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>129.000 đ</del>
+                            <p class="gia1">100.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/kynang/5.png" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Vẻ Bề Ngoài Quan Trọng Đến Thế Sao?</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>199.000 đ</del>
+                            <p class="gia1">179.000 đ</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img id="qcsachmoi" src="img/qc/sachmoi.PNG">
+            <div id="sachmoi">
+                <ul class="tuongtu">
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/qcsachmoi/1.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Anh Không Bận, Chỉ Là Không Nhớ Em</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>100.000 đ</del>
+                            <p class="gia1">91.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/qcsachmoi/2.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Sao Em Lại Buồn Đến Thế?</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>109.000 đ</del>
+                            <p class="gia1">98.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/qcsachmoi/3.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Kẻ Đánh Bom Và Tên Sát Nhân</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>167.000 đ</del>
+                            <p class="gia1">138.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/qcsachmoi/4.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Thế Giới Mới Nhiệm Màu</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>129.000 đ</del>
+                            <p class="gia1">100.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/qcsachmoi/5.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Digital Marketing Thực Chiến</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>199.000 đ</del>
+                            <p class="gia1">179.000 đ</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img id="qcsachmoi" src="img/qc/combo.PNG">
+            <div id="sachmoi">
+                <ul class="tuongtu">
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/combo/1.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Combo Chinh Phục Tiếng Nhật</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>100.000 đ</del>
+                            <p class="gia1">91.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/combo/2.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Combo Cuộc Chơi Khởi Nghiệp</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>109.000 đ</del>
+                            <p class="gia1">98.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/combo/3.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Combo Tiếng Hàn (Bộ 2 Cuốn)</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>167.000 đ</del>
+                            <p class="gia1">138.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/combo/4.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Combo Mây Hoạ Ánh Trăng</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>129.000 đ</del>
+                            <p class="gia1">100.000 đ</p>
+                        </div>
+                    </li>
+                    <li class="sanpham1">
+                        <div class="hinh">
+                            <img src="img/qc/combo/5.jpg" alt="sp1">
+                            <a href="chitiet/index.html" class="buy-now">Xem Thêm</a>
+                        </div>
+                        <div class="info">
+                            <h4>Combo Tác Giả Malcolm Gladwell</h4>
+                            <p class="star1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
+                                    class="fa-regular fa-star"></i>
+                                (3)
+                            </p>
+                            <del>199.000 đ</del>
+                            <p class="gia1">179.000 đ</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer">
+            <div>
+                <h3>DỊCH VỤ</h3>
+                <p>Điều khoản sử dụng</p>
+                <p>Chính Sách bảo mật thông tin cá nhân</p>
+                <p>Chính sách bảo mật thanh toán</p>
+                <p>Hệ thống trung tâm - nhà sách</p>
+            </div>
+            <div>
+                <h3>HỖ TRỢ</h3>
+                <p>Chính sách đổi - trả - hoàn tiền</p>
+                <p>Chính Sách bảo hành - bồi hoàn</p>
+                <p>Chính sách vận chuyển</p>
+                <p>Chính sách khách sỉ</p>
+            </div>
+            <div>
+                <h3>TÀI KHOẢN</h3>
+                <p>Đăng nhập/Tạo mới tài khoản</p>
+                <p>Thay đổi địa chỉ khách hàng</p>
+                <p>Chi tiết tài khoản</p>
+                <p>Lịch sử mua hàng</p>
+            </div>
+            <div>
+                <h3>Liên Hệ</h3>
+                <p><i class="fa-solid fa-location-dot"></i> 47/4, Nguyễn Hữu Tiến, Tây Thạnh, Tp.HCM</p>
+                <p><i class="fa-solid fa-phone"></i> 0969284916</p>
+                <p><i class="fa-solid fa-envelope"></i> thuhienmin10112003@gmail.com</p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
